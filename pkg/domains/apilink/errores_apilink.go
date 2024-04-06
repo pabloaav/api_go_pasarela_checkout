@@ -1,0 +1,31 @@
+package apilink
+
+const ERROR_URL = "error al crear base url"
+const ERROR_TOKEN = "no se pudo recuperar el token"
+const ERROR_DEBIN = "no se pudo crear el debin"
+const ERROR_GET_DEBINES = "no se pudo listar los debines"
+const ERROR_GET_CONSULTA_DESTINATARIOS = "no se pudo realizar la consulta del destinatario"
+const ERROR_GET_DEBIN = "no se pudo recuperar el debin"
+const ERROR_GET_DEBINES_PENDIENTES = "no se pudo listar los debines pendientes"
+const ERROR_DELETE_DEBINES_ACREDITADOS = "el debin ya fue acreditado no puede ser eliminado"
+const ERROR_DELETE_DEBINES = "no se pudo eliminar el debin"
+const ERROR_CREATE_TRANSFERENCIA = "no se pudo realizar la transferencia"
+const ERROR_GET_TRANSFERENCIAS = "no se pudo listar las transferencias"
+const ERROR_GET_TRANSFERENCIA = "no se pudo cargar la transferencia"
+const ERROR_CREAR_CUENTA = "no se pudo crear la cuenta en apilink. Intente nuevamente mas tarde"
+const ERROR_BAJAR_CUENTA = "no se pudo dar de baja de la cuenta en apilink. Intente nuevamente mas tarde"
+const ERROR_GET_CUENTAS = "no se pudo listar las cuentas. Intente nuevamente más tarde"
+const ERROR_CREAR_PETICION = "no se pudo registar la peticion"
+
+const ERROR_CREATE_QR = "no se pudo crear QR"
+const ERROR_GET_TRANSACCIONES_QR = "no se pudo traer datos de la transacciones"
+const ERROR_GET_TRANSACCION_QR = "no se pudo traer datos de la transaccion"
+
+const ERROR_PUT_SUCURSAL = "no se pudo modificar datos de sucursal"
+const ERROR_GET_SUCURSALES = "no se pudo obtener sucursales"
+const ERROR_DELETE_SUCURSALES = "no se pudo eliminar sucursal"
+
+const ERROR_CREATE_POS = "no se pudo crear POS"
+const ERROR_PUT_POS = "no se pudo modificar datos de POS"
+const ERROR_GET_POS = "no se pudo obtener POS"
+const ERROR_DELETE_POS = "no se pudo eliminar POS"
